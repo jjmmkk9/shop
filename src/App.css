@@ -1,3 +1,19 @@
+.main-bg{
+  height: 600px;
+  background-image: url('./images/mountaineer-2080138_1920.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.start{
+  opacity: 0;
+}
+.end{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
 .App {
   text-align: center;
 }
